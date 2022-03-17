@@ -118,7 +118,7 @@ def main():
             # Not a command
             else:
                 print("I don't under stand that. Do you want to go north, east, south, or west?")
-                print("Or if you like to  quit type q.")
+                print("Or if you like to quit type q.")
 
 
 main()
