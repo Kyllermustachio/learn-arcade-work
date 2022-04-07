@@ -15,7 +15,7 @@ SPRITE_SCALING = 0.5
 
 DEFAULT_SCREEN_WIDTH = 800
 DEFAULT_SCREEN_HEIGHT = 600
-SCREEN_TITLE = "Sprite Move with Scrolling Screen Example"
+SCREEN_TITLE = "Pirate Battle Food Struggle"
 
 NUMBER_OF_COINS = 50
 coin_sound = arcade.load_sound("toggle_002.ogg")
