@@ -317,6 +317,9 @@ def Main():
                    f"{self.camera_sprites.position[1]:5.1f}, " f"Score: {self.score})"
             arcade.draw_text(text, 10, 10, arcade.color.BLACK_BEAN, 20)
 
+            arcade.draw_text("Use arrow keys to move,", 10, 80, arcade.color.BLACK, 20)
+            arcade.draw_text("and click the mouse to fire.", 10, 50, arcade.color.BLACK, 20)
+
             if self.score < 0:
                 arcade.draw_text("GAME OVER YOU LOSE :(", 200, 300, arcade.color.BLACK, 40)
             elif len(self.coin_list) <= 0:
