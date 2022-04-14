@@ -23,6 +23,7 @@ coin_sound = arcade.load_sound("toggle_002.ogg")
 explosion_sound = arcade.load_sound("synthetic_explosion_1.flac")
 cannon_sound = arcade.load_sound("boom4.wav")
 crash_sound = arcade.load_sound("pain_jack_02.wav")
+background_music = arcade.load_sound("Blackmoor Tides.mp3")
 
 BULLET_SPEED = 5
 
@@ -142,6 +143,7 @@ def Main():
             self.camera_gui = arcade.Camera(DEFAULT_SCREEN_WIDTH, DEFAULT_SCREEN_HEIGHT)
 
         def setup(self):
+            arcade.play_sound(background_music)
             """ Set up the game and initialize the variables. """
 
             # Sprite lists
